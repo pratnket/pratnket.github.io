@@ -15,7 +15,7 @@
 <meta property="og:site_name" content="チェンのログ – ゲームを作って生きていきたいブログ">
 <meta property="og:description" content="Hexo 教學">
 <meta property="og:locale" content="default">
-<meta property="og:updated_time" content="2019-02-22T07:19:20.604Z">
+<meta property="og:updated_time" content="2019-02-22T08:06:21.132Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Hexo 個人筆記">
 <meta name="twitter:description" content="Hexo 教學">
@@ -97,17 +97,12 @@
       
         <p>Hexo 教學</p>
 <a id="more"></a>
-<p>環境：Node.js 、 Git(Base指令)</p>
-<p>安裝 Hexo 並且生成文件<br>npm install hexo-cli -g | 如果發生錯誤 -&gt; npm install hexo-deployer-git –save</p>
-<p>Hexo Admin 後台管理插件<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">範例網址：https://jaredforsyth.com/hexo-admin/admin/<span class="comment">#/</span></span><br><span class="line">GitHub：https://github.com/jaredly/hexo-admin</span><br></pre></td></tr></table></figure></p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">安裝後台：npm install --save hexo-admin</span><br><span class="line">訪問：http://localhost:4000/admin/</span><br></pre></td></tr></table></figure>
-<p>假設根目錄:<br>/c/phpStudy/PHPTutorial/WWW/pratnket/blog # 所有指令先回到根目錄去操作。</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">$ hexo g <span class="comment">#完整命令为hexo generate，用于生成静态文件</span></span><br><span class="line">$ hexo s <span class="comment">#完整命令为hexo server，用于启动服务器，主要用来本地预览</span></span><br><span class="line">$ hexo d <span class="comment">#完整命令为hexo deploy，用于将本地文件发布到github上</span></span><br><span class="line">$ hexo n <span class="comment">#完整命令为hexo new，用于新建一篇文章</span></span><br><span class="line"></span><br><span class="line">$ hexo clean &amp;&amp; hexo g <span class="comment"># 清楚緩存並且生成文章</span></span><br><span class="line">$ hexo server <span class="comment"># 啟動服務器，主要用於本地預覽</span></span><br></pre></td></tr></table></figure>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br></pre></td><td class="code"><pre><span class="line">環境：Node.js 、 Git(Base指令)</span><br><span class="line"></span><br><span class="line">安裝 Hexo 並且生成文件</span><br><span class="line">npm install hexo-cli -g | 如果發生錯誤 -&gt; npm install hexo-deployer-git --save</span><br><span class="line"></span><br><span class="line">Hexo Admin 後台管理插件</span><br><span class="line"></span><br><span class="line">範例網址：https://jaredforsyth.com/hexo-admin/admin/<span class="comment">#/</span></span><br><span class="line">GitHub：https://github.com/jaredly/hexo-admin</span><br><span class="line"></span><br><span class="line">安裝後台：npm install --save hexo-admin</span><br><span class="line">訪問：http://localhost:4000/admin/</span><br><span class="line"></span><br><span class="line">假設根目錄:</span><br><span class="line">/c/phpStudy/PHPTutorial/WWW/pratnket/blog <span class="comment"># 所有指令先回到根目錄去操作。</span></span><br><span class="line"></span><br><span class="line">$ hexo g <span class="comment">#完整命令为hexo generate，用于生成静态文件</span></span><br><span class="line">$ hexo s <span class="comment">#完整命令为hexo server，用于启动服务器，主要用来本地预览</span></span><br><span class="line">$ hexo d <span class="comment">#完整命令为hexo deploy，用于将本地文件发布到github上</span></span><br><span class="line">$ hexo n <span class="comment">#完整命令为hexo new，用于新建一篇文章</span></span><br><span class="line"></span><br><span class="line">$ hexo clean &amp;&amp; hexo g <span class="comment"># 清楚緩存並且生成文章</span></span><br><span class="line">$ hexo server <span class="comment"># 啟動服務器，主要用於本地預覽</span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">文章 C:\phpStudy\PHPTutorial\WWW\pratnket\blog\<span class="built_in">source</span>\_posts</span><br><span class="line">編輯中未生成文章 C:\phpStudy\PHPTutorial\WWW\pratnket\blog\<span class="built_in">source</span>\_drafts</span><br></pre></td></tr></table></figure>
 <!--more-->
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://pratnket.github.io/2019/02/22/my-new-post/" data-id="cjsfq148v00015saciakxg6v7" class="article-share-link">Share</a>
+      <a data-url="https://pratnket.github.io/2019/02/22/my-new-post/" data-id="cjsfqzc0d0001ewac93vqv916" class="article-share-link">Share</a>
       
       
   <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/博客，文章/">博客，文章</a></li></ul>
