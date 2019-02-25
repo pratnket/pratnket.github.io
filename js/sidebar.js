@@ -1,4 +1,25 @@
 $(function () {
+
+  // sidebar 側邊攔，預設開啟。
+
+  $('#page-header').addClass('open-sidebar')
+  $('body').velocity('stop').velocity({
+    paddingLeft: '300px'
+  }, {
+    duration: 200
+  })
+  $('#sidebar').velocity('stop').velocity({
+    translateX: '300px'
+  }, {
+    duration: 200
+  })
+  $('#toggle-sidebar').velocity('stop').velocity({
+    rotateZ: '180deg',
+    color: '#99a9bf'
+  }, {
+    duration: 200
+  })
+
   $('.toggle-sidebar-info > span').on('click', function () {
     var toggleText = $(this).attr('data-toggle')
     $(this).attr('data-toggle', $(this).text())
@@ -9,6 +30,7 @@ $(function () {
     if (!isMobile() && $('#sidebar').is(':visible')) {
       var isOpen = $(this).hasClass('on')
       isOpen ? $(this).removeClass('on') : $(this).addClass('on')
+
       if (isOpen) {
         $('#page-header').removeClass('open-sidebar')
         $('body').velocity('stop').velocity({
@@ -46,6 +68,7 @@ $(function () {
           duration: 200
         })
       }
+
     }
   })
   function changeSideBarInfo () {
