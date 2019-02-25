@@ -152,7 +152,8 @@ table td {
 }
 .pull-left {
   float: left;
-  width: 90%;
+  max-width: 90%;
+  min-width: 50%;
 }
 .pull-right {
   float: right;
@@ -653,11 +654,6 @@ footer.is-mobile {
   width: 100%;
   border: none;
   font-size: 18px;
-  -webkit-transition: all 0.2s ease-in-out;
-  -moz-transition: all 0.2s ease-in-out;
-  -o-transition: all 0.2s ease-in-out;
-  -ms-transition: all 0.2s ease-in-out;
-  transition: all 0.2s ease-in-out;
 }
 #page-header .toggle-menu {
   display: none;
@@ -708,7 +704,7 @@ footer.is-mobile {
 }
 #page-header.fixed {
   position: fixed;
-  top: 0px;
+  top: -999px;
   z-index: 101;
   background: rgba(255,255,255,0.8);
   -webkit-box-shadow: 0 5px 6px -5px rgba(133,133,133,0.6);
