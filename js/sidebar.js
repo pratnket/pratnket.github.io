@@ -6,18 +6,18 @@ $(function () {
   $('body').velocity('stop').velocity({
     paddingLeft: '300px'
   }, {
-    duration: 200
+    duration: 0
   })
   $('#sidebar').velocity('stop').velocity({
     translateX: '300px'
   }, {
-    duration: 200
+    duration: 0
   })
   $('#toggle-sidebar').velocity('stop').velocity({
     rotateZ: '180deg',
     color: '#99a9bf'
   }, {
-    duration: 200
+    duration: 0
   })
 
   $('.toggle-sidebar-info > span').on('click', function () {
