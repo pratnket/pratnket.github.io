@@ -152,6 +152,7 @@ table td {
 }
 .pull-left {
   float: left;
+  width: 90%;
 }
 .pull-right {
   float: right;
