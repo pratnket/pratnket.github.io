@@ -236,8 +236,8 @@ table td {
 .article-container figure.highlight.ts table:before {
   content: "ts";
 }
-.article-container figure.highlight.bash table:before {
-  content: "bash";
+.article-container figure.highlight.code table:before {
+  content: "code";
 }
 .article-container figure.highlight.yml table:before {
   content: "yml";

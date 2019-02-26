@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title><![CDATA[Hello World]]></title>
-    <url>%2F2019%2F02%2F22%2Fhello-world%2F</url>
-    <content type="text"><![CDATA[Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick StartCreate a new post1$ hexo new "My New Post" More info: Writing Run server1$ hexo server More info: Server Generate static files1$ hexo generate More info: Generating Deploy to remote sites1$ hexo deploy More info: Deployment]]></content>
+    <title><![CDATA[[Windows] Apache自動監測重啟腳本 (內附圖文範例：phpStudy) by Zerolocus&pratnket]]></title>
+    <url>%2F2019%2F02%2F26%2Fwindows-script%2F</url>
+    <content type="text"><![CDATA[一個簡單監控 Apache httpd Server的Shell腳本，如果發現httpd常常掛掉，該shell可以自動重啟 apache 搭配工具：curl.exe (https://curl.haxx.se/windows/) 備註：內有原始碼，不放心的人可以自己編譯成執行檔。 123456789101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657@ECHO OFF:: 宣告屬性區域::網址set chkWeb=http://127.0.0.1/robots.txt::Apacheset srvname="Apache"::MySQLaset srvMysql="MySQLa"::每60秒偵測一次set secs=60::先啟動MySQLa,只啟動一次::net start %srvMysql%::說明echo.echo ========================================echo == 查詢Apache服務的狀態 ==echo == 每間隔%secs%秒鐘進行一次查詢 ==echo == 如發現其停止，則立即啟動 ==echo == By Zerolocus or pratnket ==echo ========================================echo.:: 標記 start , goto專用:start:: 等待秒數timeout %secs%:: 模擬訪問 chkWeb 並產生 cache.txtcurl -o cache.txt %chkWeb%:: EQU - 等於:: NEQ - 不等於:: LSS - 小於:: LEQ - 小於或等於:: GTR - 大於:: GEQ - 大於或等於:: 0 = success | 1 = errHif %errorlevel% EQU 0 goto successif %errorlevel% NEQ 0 goto errH::結果 0 則寫入 Server is OK 寫進去 logs.txt 筆記本:success echo %date% %time%: "Server is OK" &gt;&gt; logs.txt goto start:: 標記 errH , goto專用:errH :: 停止Apache 服務 net stop %srvname% :: 啟動Apache 服務 net start %srvname% timeout %secs% echo %date% %time%: error Code:%errorlevel% &gt;&gt; logs.txt goto startpause 補充說明:如果你是使用整合安裝包(phpStudy、Xampp)來安裝，請注意是否有安裝此服務(Apache、Mysqla) 舉例：phpStudy 運行模式：需要使用系統服務，即可直接使用你自身所安裝的服務了]]></content>
   </entry>
   <entry>
     <title><![CDATA[Hexo 個人筆記]]></title>
