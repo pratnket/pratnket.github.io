@@ -19,7 +19,7 @@ $(function () {
   }, {
     duration: 0
   })
-
+  
   $('.toggle-sidebar-info > span').on('click', function () {
     var toggleText = $(this).attr('data-toggle')
     $(this).attr('data-toggle', $(this).text())
