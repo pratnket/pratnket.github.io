@@ -617,6 +617,7 @@ body {
   }
 }
 #nav {
+  height: 52px;
   position: relative;
   margin-bottom: 1rem;
 }
