@@ -1637,6 +1637,7 @@ img:hover {
 }
 .layout_article {
   margin: 0 auto;
+  width: 80%;
 }
 @media screen and (max-width: 768px) {
   .layout {
