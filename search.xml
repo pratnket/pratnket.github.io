@@ -22,4 +22,12 @@
         <tag>Hexo 教學</tag>
       </tags>
   </entry>
+  <entry>
+    <title><![CDATA[hexo-theme-melody v1.5 supports slides & iframe]]></title>
+    <url>%2F2018%2F03%2F06%2Fsolid%2F</url>
+    <content type="text"><![CDATA[hexo-theme-melody v1.5 Supports iframe &amp; slides. You can use a layout called slides to enabled the slides layout. Also you can add a iframe front-matter with the slides layout in your md file to enable the iframe page. Steps 1. Add a slides page// …… == // …… === 2. Add the layout type // ……]]></content>
+      <tags>
+        <tag>hexo</tag>
+      </tags>
+  </entry>
 </search>
