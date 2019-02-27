@@ -605,21 +605,37 @@ body {
   background-image: url("/images/top_img.png");
   background-repeat: no-repeat;
   background-attachment: fixed;
-  -webkit-background-size: 100%;
-  -moz-background-size: 100%;
-  background-size: 100%;
+  background-position: center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
 }
 .article-container p {
   float: left;
+  width: 100%;
+  padding: 2%;
 }
 .article-container p img {
-  width: 150px;
+  width: 100%;
 }
-.article-container p a {
-  display: block;
-  text-align: center;
-  width: 150px;
+.article-container dd {
+  margin-inline-start: 0px;
   float: left;
+  padding: 6px;
+}
+.article-container dl {
+  width: 25%;
+  float: left;
+  margin: 0;
+}
+.article-container dl {
+  text-align: center;
+}
+@media screen and (max-width: 1300px) {
+  .article-container dl {
+    width: 50%;
+    float: left;
+  }
 }
 @media screen and (max-width: 1300px) {
   body {
