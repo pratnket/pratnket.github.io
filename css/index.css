@@ -611,9 +611,9 @@ body {
   background-size: cover;
 }
 .article-container dd {
-  margin-inline-start: 0px;
   float: left;
   padding: 6px;
+  margin: 0;
 }
 .article-container dd img {
   width: 100%;
