@@ -135,7 +135,7 @@ table {
   border-collapse: collapse;
 }
 table thead {
-  background: rgba(255,0,0,0.1);
+  background: rgba(58,135,173,0.1);
 }
 table th,
 table td {
@@ -1017,7 +1017,7 @@ body {
 .article-sort-item__time {
   position: absolute;
   top: 0.1rem;
-  color: #f00;
+  color: #3a87ad;
 }
 .article-sort-item__title {
   display: block;
@@ -1041,7 +1041,7 @@ body {
 }
 .category-list .category-list-count {
   margin-left: 0.4rem;
-  color: #f00;
+  color: #3a87ad;
 }
 .category-list .category-list-count:before {
   content: "(";
@@ -1162,7 +1162,7 @@ body {
   cursor: pointer;
 }
 #pagination .space {
-  color: #f00;
+  color: #3a87ad;
 }
 #pagination .page-number {
   display: inline-block;
@@ -1298,6 +1298,13 @@ body {
   opacity: 0;
   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
   filter: alpha(opacity=0);
+  -moz-box-shadow: 0 0 5px rgba(202,203,204,0.5);
+  background-color: rgba(230,238,232,0.5);
+  -webkit-box-shadow: 0px 0px 8px #000;
+  -webkit-box-shadow: 0px 0px 8px #000;
+  box-shadow: 0px 0px 8px #000;
+  border-radius: 4px;
+  padding: 19px;
 }
 #content-inner h1,
 #content-inner h2,
@@ -1481,7 +1488,7 @@ body {
   margin-bottom: 1rem;
 }
 a {
-  color: #f00;
+  color: #3a87ad;
   -webkit-transition: all 0.2s;
   -moz-transition: all 0.2s;
   -o-transition: all 0.2s;
@@ -1607,12 +1614,6 @@ img:hover {
   margin: 1rem 0;
 }
 .layout_article {
-  background-color: rgba(230,238,232,0.5);
-  -webkit-box-shadow: 0px 0px 8px #000;
-  -webkit-box-shadow: 0px 0px 8px #000;
-  box-shadow: 0px 0px 8px #000;
-  border-radius: 4px;
-  padding: 19px;
   margin: 0 auto;
 }
 @media screen and (max-width: 768px) {
@@ -1634,6 +1635,10 @@ img:hover {
   }
   #top-container {
     background-attachment: local;
+  }
+  #top-container.plain {
+    margin-bottom: 1rem;
+    height: 96px;
   }
   #top-container #post-title {
     font-size: 1.1rem;
@@ -1729,7 +1734,7 @@ img:hover {
   font-size: 0.8rem;
 }
 #sidebar .author-info__description {
-  color: #f00;
+  color: #3a87ad;
 }
 #sidebar .author-info-articles {
   padding: 0.2rem 0;
