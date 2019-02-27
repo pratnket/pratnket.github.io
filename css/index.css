@@ -610,25 +610,20 @@ body {
   -moz-background-size: cover;
   background-size: cover;
 }
-.article-container p {
-  float: left;
-  width: 100%;
-  padding: 2%;
-}
-.article-container p img {
-  width: 100%;
-}
 .article-container dd {
   margin-inline-start: 0px;
   float: left;
   padding: 6px;
+}
+.article-container dd img {
+  width: 100%;
 }
 .article-container dl {
   width: 25%;
   float: left;
   margin: 0;
 }
-.article-container dl {
+.article-container dt {
   text-align: center;
 }
 @media screen and (max-width: 1300px) {
