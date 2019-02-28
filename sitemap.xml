@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="sitemap.xsl"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:mobile="http://www.baidu.com/schemas/sitemap-mobile/1/">
+
+<url>
+<mobile:mobile type="pc,mobile"/>
+<loc>https://pratnket.github.io</loc>
+<priority>1.00</priority>
+<lastmod>2019-03-01</lastmod>
+<changefreq>Always</changefreq>
+</url>
+<url>
+<mobile:mobile type="pc,mobile"/>
+<loc>https://pratnket.github.io/2019/02/22/Nexo-tutorial/</loc>
+<priority>0.10</priority>
+<lastmod>2019-03-01</lastmod>
+<changefreq>Always</changefreq>
+</url>
+<url>
+<mobile:mobile type="pc,mobile"/>
+<loc>https://pratnket.github.io/2019/02/26/windows-script/</loc>
+<priority>0.10</priority>
+<lastmod>2019-03-01</lastmod>
+<changefreq>Always</changefreq>
+</url>
+<url>
+<mobile:mobile type="pc,mobile"/>
+<loc>https://pratnket.github.io/archives</loc>
+<priority>0.80</priority>
+<lastmod>2019-03-01</lastmod>
+<changefreq>Always</changefreq>
+</url>
+<url>
+<mobile:mobile type="pc,mobile"/>
+<loc>https://pratnket.github.io/categories</loc>
+<priority>0.80</priority>
+<lastmod>2019-03-01</lastmod>
+<changefreq>Always</changefreq>
+</url>
+<url>
+<mobile:mobile type="pc,mobile"/>
+<loc>https://pratnket.github.io/categories/Apache/</loc>
+<priority>0.40</priority>
+<lastmod>2019-03-01</lastmod>
+<changefreq>Always</changefreq>
+</url>
+<url>
+<mobile:mobile type="pc,mobile"/>
+<loc>https://pratnket.github.io/categories/Hexo/</loc>
+<priority>0.40</priority>
+<lastmod>2019-03-01</lastmod>
+<changefreq>Always</changefreq>
+</url>
+<url>
+<mobile:mobile type="pc,mobile"/>
+<loc>https://pratnket.github.io/comic</loc>
+<priority>0.80</priority>
+<lastmod>2019-03-01</lastmod>
+<changefreq>Always</changefreq>
+</url>
+<url>
+<mobile:mobile type="pc,mobile"/>
+<loc>https://pratnket.github.io/message</loc>
+<priority>0.80</priority>
+<lastmod>2019-03-01</lastmod>
+<changefreq>Always</changefreq>
+</url>
+<url>
+<mobile:mobile type="pc,mobile"/>
+<loc>https://pratnket.github.io/tags</loc>
+<priority>0.80</priority>
+<lastmod>2019-03-01</lastmod>
+<changefreq>Always</changefreq>
+</url>
+<url>
+<mobile:mobile type="pc,mobile"/>
+<loc>https://pratnket.github.io/tags/Apache/</loc>
+<priority>0.40</priority>
+<lastmod>2019-03-01</lastmod>
+<changefreq>Always</changefreq>
+</url>
+<url>
+<mobile:mobile type="pc,mobile"/>
+<loc>https://pratnket.github.io/tags/Hexo-教學/</loc>
+<priority>0.40</priority>
+<lastmod>2019-03-01</lastmod>
+<changefreq>Always</changefreq>
+</url>
+</urlset>
