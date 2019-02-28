@@ -142,6 +142,8 @@ table td {
   padding: 0.3rem 0.6rem;
   border: 1px solid #d6d6d6;
   vertical-align: top;
+  width: 20%;
+  text-align: center;
 }
 *::selection {
   background: #00c4b6;
@@ -152,8 +154,6 @@ table td {
 }
 .pull-left {
   float: left;
-  max-width: 90%;
-  min-width: 50%;
 }
 .pull-right {
   float: right;
@@ -611,26 +611,29 @@ body {
   background-size: cover;
 }
 .article-container dd {
-  float: left;
   padding: 6px;
   margin: 0;
 }
 .article-container dd img {
-  width: 100%;
-  max-height: 430px;
+  width: 120px;
+  height: 160px;
+  overflow: hidden;
 }
 .article-container dl {
-  width: 25%;
   float: left;
   margin: 0;
 }
 .article-container dt {
   text-align: center;
+  width: 120px;
 }
-@media screen and (max-width: 1300px) {
+@media screen and (max-width: 480px) {
   .article-container dl {
     width: 50%;
-    float: left;
+  }
+  .article-container dt {
+    text-align: center;
+    width: 100%;
   }
 }
 @media screen and (max-width: 1300px) {
@@ -800,6 +803,20 @@ body {
   text-shadow: 0.1rem 0.1rem 0.2rem rgba(0,0,0,0.15);
   font-weight: bold;
   cursor: pointer;
+}
+#page-header .pull-center {
+  display: block;
+  text-align: center;
+}
+#page-header #site-logo a {
+  margin: auto;
+  width: 100%;
+}
+#page-header #site-logo img {
+  width: 100%;
+  max-width: 240px;
+  margin-top: 10px;
+  padding: 0;
 }
 @media screen and (min-width: 768px) {
   #site-title {
