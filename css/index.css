@@ -162,6 +162,12 @@ table.comic td {
   float: right;
 }
 @media screen and (max-width: 1024px) {
+  .pull-left {
+    float: left;
+    display: none;
+  }
+}
+@media screen and (max-width: 1024px) {
   i#toggle-sidebar,
   #sidebar {
     display: none;
@@ -620,7 +626,7 @@ body {
   -moz-background-size: cover;
   background-size: cover;
 }
-top-container {
+#top-container {
   background-attachment: fixed;
   background-position: center;
   -webkit-background-size: cover;
@@ -678,7 +684,7 @@ top-container {
   background-attachment: local;
 }
 #site-info {
-  padding: 10rem 1rem;
+  padding: 6rem 1rem 1rem 1rem;
 }
 #site-title,
 #site-sub-title {
@@ -1308,7 +1314,7 @@ top-container {
   cursor: pointer;
 }
 #top-container #post-info {
-  padding: 10rem 1rem;
+  padding: 6rem 1rem 1rem 1rem;
   width: 100%;
   color: #eee;
   text-align: center;
