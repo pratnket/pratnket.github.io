@@ -645,8 +645,9 @@ body {
   background-size: cover;
 }
 .article-container dd {
-  padding: 6px;
+  padding: 6px 0px;
   margin: 0;
+  text-align: center;
 }
 .article-container dd img {
   width: 120px;
@@ -656,10 +657,13 @@ body {
 .article-container dl {
   float: left;
   margin: 0;
+  padding: 0 1%;
 }
 .article-container dt {
   text-align: center;
   width: 120px;
+  overflow: hidden;
+  white-space: nowrap;
 }
 @media screen and (max-width: 480px) {
   .article-container dl {
