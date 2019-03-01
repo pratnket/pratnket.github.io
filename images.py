@@ -4,7 +4,7 @@ from os import listdir
 from os.path import isfile, isdir, join
 
 # 指定要列出所有檔案的目錄
-mypath = "comic/東方三月精（第2部）"
+mypath = "comic/東方三月精（第4部）"
 
 # 取得所有檔案與子目錄名稱
 files = listdir(mypath)
@@ -34,7 +34,7 @@ for f in files:
 
     next_number = after + str(i)
 
-    title = '''title: 東方三月精（第2部) - 第{}話
+    title = '''title: 東方三月精（第4部) - 第{}話
 layout: slides
 slide:
   theme: night
@@ -59,16 +59,17 @@ date: 2019-03-01 21:33:03
 
     print(title)
 
-    filename = "004" + "-" + number + ".md"
+    filename = "006" + "-" + number + ".md"
 
-    newpath = "comic/東方三月精（第2部）/"+ f
+    newpath = "comic/東方三月精（第4部）/"+ f
+
     files2 = listdir(newpath)
     for f2 in files2:
         value = newpath + "/" + f2
         value = value.replace("comic","\\comic")
-        string += "\n" + "\n" + "![東方三月精（第2部）](" + value.replace("/", "\\") + ")" + "\n" + "\n" + "==="
+        string += "\n" + "\n" + "![東方三月精（第4部）](" + value.replace("/", "\\") + ")" + "\n" + "\n" + "==="
 
-    next_string = "\n" + "\n" + "[(目錄)](/comic/{0}.html) >> [第 {0} 話](/comic/004-{0}.html)".format(next_number)
+    next_string = "\n" + "\n" + "[(目錄)](/comic/006.html) >> [第 {0} 話](/comic/006-{0}.html)".format(next_number)
     string += next_string
     
     print(string)
