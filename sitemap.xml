@@ -4,86 +4,597 @@
 
 <url>
 <mobile:mobile type="pc,mobile"/>
+<loc>http://pratnket.github.io</loc>
+<priority>1.00</priority>
+<lastmod>2019-03-02</lastmod>
+<changefreq>Always</changefreq>
+</url>
+<url>
+<mobile:mobile type="pc,mobile"/>
 <loc>https://pratnket.github.io</loc>
 <priority>1.00</priority>
-<lastmod>2019-03-01</lastmod>
+<lastmod>2019-03-02</lastmod>
 <changefreq>Always</changefreq>
 </url>
 <url>
 <mobile:mobile type="pc,mobile"/>
 <loc>https://pratnket.github.io/2019/02/22/Nexo-tutorial/</loc>
 <priority>0.10</priority>
-<lastmod>2019-03-01</lastmod>
+<lastmod>2019-03-02</lastmod>
 <changefreq>Always</changefreq>
 </url>
 <url>
 <mobile:mobile type="pc,mobile"/>
 <loc>https://pratnket.github.io/2019/02/26/windows-script/</loc>
 <priority>0.10</priority>
-<lastmod>2019-03-01</lastmod>
+<lastmod>2019-03-02</lastmod>
 <changefreq>Always</changefreq>
 </url>
 <url>
 <mobile:mobile type="pc,mobile"/>
 <loc>https://pratnket.github.io/archives</loc>
 <priority>0.80</priority>
-<lastmod>2019-03-01</lastmod>
+<lastmod>2019-03-02</lastmod>
+<changefreq>Always</changefreq>
+</url>
+<url>
+<mobile:mobile type="pc,mobile"/>
+<loc>https://pratnket.github.io/archives/</loc>
+<priority>0.60</priority>
+<lastmod>2019-03-02</lastmod>
 <changefreq>Always</changefreq>
 </url>
 <url>
 <mobile:mobile type="pc,mobile"/>
 <loc>https://pratnket.github.io/categories</loc>
 <priority>0.80</priority>
-<lastmod>2019-03-01</lastmod>
+<lastmod>2019-03-02</lastmod>
+<changefreq>Always</changefreq>
+</url>
+<url>
+<mobile:mobile type="pc,mobile"/>
+<loc>https://pratnket.github.io/categories/</loc>
+<priority>0.60</priority>
+<lastmod>2019-03-02</lastmod>
 <changefreq>Always</changefreq>
 </url>
 <url>
 <mobile:mobile type="pc,mobile"/>
 <loc>https://pratnket.github.io/categories/Apache/</loc>
 <priority>0.40</priority>
-<lastmod>2019-03-01</lastmod>
+<lastmod>2019-03-02</lastmod>
 <changefreq>Always</changefreq>
 </url>
 <url>
 <mobile:mobile type="pc,mobile"/>
 <loc>https://pratnket.github.io/categories/Hexo/</loc>
 <priority>0.40</priority>
-<lastmod>2019-03-01</lastmod>
+<lastmod>2019-03-02</lastmod>
 <changefreq>Always</changefreq>
 </url>
 <url>
 <mobile:mobile type="pc,mobile"/>
-<loc>https://pratnket.github.io/comic</loc>
-<priority>0.80</priority>
-<lastmod>2019-03-01</lastmod>
+<loc>https://pratnket.github.io/comic/</loc>
+<priority>0.60</priority>
+<lastmod>2019-03-02</lastmod>
 <changefreq>Always</changefreq>
 </url>
 <url>
 <mobile:mobile type="pc,mobile"/>
-<loc>https://pratnket.github.io/message</loc>
-<priority>0.80</priority>
-<lastmod>2019-03-01</lastmod>
+<loc>https://pratnket.github.io/comic/001-001.html</loc>
+<priority>0.60</priority>
+<lastmod>2019-03-02</lastmod>
+<changefreq>Always</changefreq>
+</url>
+<url>
+<mobile:mobile type="pc,mobile"/>
+<loc>https://pratnket.github.io/comic/001.html</loc>
+<priority>0.60</priority>
+<lastmod>2019-03-02</lastmod>
+<changefreq>Always</changefreq>
+</url>
+<url>
+<mobile:mobile type="pc,mobile"/>
+<loc>https://pratnket.github.io/comic/002-001.html</loc>
+<priority>0.60</priority>
+<lastmod>2019-03-02</lastmod>
+<changefreq>Always</changefreq>
+</url>
+<url>
+<mobile:mobile type="pc,mobile"/>
+<loc>https://pratnket.github.io/comic/002.html</loc>
+<priority>0.60</priority>
+<lastmod>2019-03-02</lastmod>
+<changefreq>Always</changefreq>
+</url>
+<url>
+<mobile:mobile type="pc,mobile"/>
+<loc>https://pratnket.github.io/comic/003-000.html</loc>
+<priority>0.60</priority>
+<lastmod>2019-03-02</lastmod>
+<changefreq>Always</changefreq>
+</url>
+<url>
+<mobile:mobile type="pc,mobile"/>
+<loc>https://pratnket.github.io/comic/003-001.html</loc>
+<priority>0.60</priority>
+<lastmod>2019-03-02</lastmod>
+<changefreq>Always</changefreq>
+</url>
+<url>
+<mobile:mobile type="pc,mobile"/>
+<loc>https://pratnket.github.io/comic/003-002.html</loc>
+<priority>0.60</priority>
+<lastmod>2019-03-02</lastmod>
+<changefreq>Always</changefreq>
+</url>
+<url>
+<mobile:mobile type="pc,mobile"/>
+<loc>https://pratnket.github.io/comic/003-003.html</loc>
+<priority>0.60</priority>
+<lastmod>2019-03-02</lastmod>
+<changefreq>Always</changefreq>
+</url>
+<url>
+<mobile:mobile type="pc,mobile"/>
+<loc>https://pratnket.github.io/comic/003.html</loc>
+<priority>0.60</priority>
+<lastmod>2019-03-02</lastmod>
+<changefreq>Always</changefreq>
+</url>
+<url>
+<mobile:mobile type="pc,mobile"/>
+<loc>https://pratnket.github.io/comic/004-001.html</loc>
+<priority>0.60</priority>
+<lastmod>2019-03-02</lastmod>
+<changefreq>Always</changefreq>
+</url>
+<url>
+<mobile:mobile type="pc,mobile"/>
+<loc>https://pratnket.github.io/comic/004-002.html</loc>
+<priority>0.60</priority>
+<lastmod>2019-03-02</lastmod>
+<changefreq>Always</changefreq>
+</url>
+<url>
+<mobile:mobile type="pc,mobile"/>
+<loc>https://pratnket.github.io/comic/004-003.html</loc>
+<priority>0.60</priority>
+<lastmod>2019-03-02</lastmod>
+<changefreq>Always</changefreq>
+</url>
+<url>
+<mobile:mobile type="pc,mobile"/>
+<loc>https://pratnket.github.io/comic/004-004.html</loc>
+<priority>0.60</priority>
+<lastmod>2019-03-02</lastmod>
+<changefreq>Always</changefreq>
+</url>
+<url>
+<mobile:mobile type="pc,mobile"/>
+<loc>https://pratnket.github.io/comic/004-005.html</loc>
+<priority>0.60</priority>
+<lastmod>2019-03-02</lastmod>
+<changefreq>Always</changefreq>
+</url>
+<url>
+<mobile:mobile type="pc,mobile"/>
+<loc>https://pratnket.github.io/comic/004-006.html</loc>
+<priority>0.60</priority>
+<lastmod>2019-03-02</lastmod>
+<changefreq>Always</changefreq>
+</url>
+<url>
+<mobile:mobile type="pc,mobile"/>
+<loc>https://pratnket.github.io/comic/004-007.html</loc>
+<priority>0.60</priority>
+<lastmod>2019-03-02</lastmod>
+<changefreq>Always</changefreq>
+</url>
+<url>
+<mobile:mobile type="pc,mobile"/>
+<loc>https://pratnket.github.io/comic/004-008.html</loc>
+<priority>0.60</priority>
+<lastmod>2019-03-02</lastmod>
+<changefreq>Always</changefreq>
+</url>
+<url>
+<mobile:mobile type="pc,mobile"/>
+<loc>https://pratnket.github.io/comic/004-009.html</loc>
+<priority>0.60</priority>
+<lastmod>2019-03-02</lastmod>
+<changefreq>Always</changefreq>
+</url>
+<url>
+<mobile:mobile type="pc,mobile"/>
+<loc>https://pratnket.github.io/comic/004-010.html</loc>
+<priority>0.60</priority>
+<lastmod>2019-03-02</lastmod>
+<changefreq>Always</changefreq>
+</url>
+<url>
+<mobile:mobile type="pc,mobile"/>
+<loc>https://pratnket.github.io/comic/004-011.html</loc>
+<priority>0.60</priority>
+<lastmod>2019-03-02</lastmod>
+<changefreq>Always</changefreq>
+</url>
+<url>
+<mobile:mobile type="pc,mobile"/>
+<loc>https://pratnket.github.io/comic/004-012.html</loc>
+<priority>0.60</priority>
+<lastmod>2019-03-02</lastmod>
+<changefreq>Always</changefreq>
+</url>
+<url>
+<mobile:mobile type="pc,mobile"/>
+<loc>https://pratnket.github.io/comic/004-013.html</loc>
+<priority>0.60</priority>
+<lastmod>2019-03-02</lastmod>
+<changefreq>Always</changefreq>
+</url>
+<url>
+<mobile:mobile type="pc,mobile"/>
+<loc>https://pratnket.github.io/comic/004-014.html</loc>
+<priority>0.60</priority>
+<lastmod>2019-03-02</lastmod>
+<changefreq>Always</changefreq>
+</url>
+<url>
+<mobile:mobile type="pc,mobile"/>
+<loc>https://pratnket.github.io/comic/004-015.html</loc>
+<priority>0.60</priority>
+<lastmod>2019-03-02</lastmod>
+<changefreq>Always</changefreq>
+</url>
+<url>
+<mobile:mobile type="pc,mobile"/>
+<loc>https://pratnket.github.io/comic/004-016.html</loc>
+<priority>0.60</priority>
+<lastmod>2019-03-02</lastmod>
+<changefreq>Always</changefreq>
+</url>
+<url>
+<mobile:mobile type="pc,mobile"/>
+<loc>https://pratnket.github.io/comic/004-017.html</loc>
+<priority>0.60</priority>
+<lastmod>2019-03-02</lastmod>
+<changefreq>Always</changefreq>
+</url>
+<url>
+<mobile:mobile type="pc,mobile"/>
+<loc>https://pratnket.github.io/comic/004-018.html</loc>
+<priority>0.60</priority>
+<lastmod>2019-03-02</lastmod>
+<changefreq>Always</changefreq>
+</url>
+<url>
+<mobile:mobile type="pc,mobile"/>
+<loc>https://pratnket.github.io/comic/004-019.html</loc>
+<priority>0.60</priority>
+<lastmod>2019-03-02</lastmod>
+<changefreq>Always</changefreq>
+</url>
+<url>
+<mobile:mobile type="pc,mobile"/>
+<loc>https://pratnket.github.io/comic/004-020.html</loc>
+<priority>0.60</priority>
+<lastmod>2019-03-02</lastmod>
+<changefreq>Always</changefreq>
+</url>
+<url>
+<mobile:mobile type="pc,mobile"/>
+<loc>https://pratnket.github.io/comic/004-021.html</loc>
+<priority>0.60</priority>
+<lastmod>2019-03-02</lastmod>
+<changefreq>Always</changefreq>
+</url>
+<url>
+<mobile:mobile type="pc,mobile"/>
+<loc>https://pratnket.github.io/comic/004-022.html</loc>
+<priority>0.60</priority>
+<lastmod>2019-03-02</lastmod>
+<changefreq>Always</changefreq>
+</url>
+<url>
+<mobile:mobile type="pc,mobile"/>
+<loc>https://pratnket.github.io/comic/004-023.html</loc>
+<priority>0.60</priority>
+<lastmod>2019-03-02</lastmod>
+<changefreq>Always</changefreq>
+</url>
+<url>
+<mobile:mobile type="pc,mobile"/>
+<loc>https://pratnket.github.io/comic/004-024.html</loc>
+<priority>0.60</priority>
+<lastmod>2019-03-02</lastmod>
+<changefreq>Always</changefreq>
+</url>
+<url>
+<mobile:mobile type="pc,mobile"/>
+<loc>https://pratnket.github.io/comic/004-025.html</loc>
+<priority>0.60</priority>
+<lastmod>2019-03-02</lastmod>
+<changefreq>Always</changefreq>
+</url>
+<url>
+<mobile:mobile type="pc,mobile"/>
+<loc>https://pratnket.github.io/comic/004.html</loc>
+<priority>0.60</priority>
+<lastmod>2019-03-02</lastmod>
+<changefreq>Always</changefreq>
+</url>
+<url>
+<mobile:mobile type="pc,mobile"/>
+<loc>https://pratnket.github.io/comic/005-001.html</loc>
+<priority>0.60</priority>
+<lastmod>2019-03-02</lastmod>
+<changefreq>Always</changefreq>
+</url>
+<url>
+<mobile:mobile type="pc,mobile"/>
+<loc>https://pratnket.github.io/comic/005-002.html</loc>
+<priority>0.60</priority>
+<lastmod>2019-03-02</lastmod>
+<changefreq>Always</changefreq>
+</url>
+<url>
+<mobile:mobile type="pc,mobile"/>
+<loc>https://pratnket.github.io/comic/005-003.html</loc>
+<priority>0.60</priority>
+<lastmod>2019-03-02</lastmod>
+<changefreq>Always</changefreq>
+</url>
+<url>
+<mobile:mobile type="pc,mobile"/>
+<loc>https://pratnket.github.io/comic/005-004.html</loc>
+<priority>0.60</priority>
+<lastmod>2019-03-02</lastmod>
+<changefreq>Always</changefreq>
+</url>
+<url>
+<mobile:mobile type="pc,mobile"/>
+<loc>https://pratnket.github.io/comic/005-005.html</loc>
+<priority>0.60</priority>
+<lastmod>2019-03-02</lastmod>
+<changefreq>Always</changefreq>
+</url>
+<url>
+<mobile:mobile type="pc,mobile"/>
+<loc>https://pratnket.github.io/comic/005-006.html</loc>
+<priority>0.60</priority>
+<lastmod>2019-03-02</lastmod>
+<changefreq>Always</changefreq>
+</url>
+<url>
+<mobile:mobile type="pc,mobile"/>
+<loc>https://pratnket.github.io/comic/005-007.html</loc>
+<priority>0.60</priority>
+<lastmod>2019-03-02</lastmod>
+<changefreq>Always</changefreq>
+</url>
+<url>
+<mobile:mobile type="pc,mobile"/>
+<loc>https://pratnket.github.io/comic/005-008.html</loc>
+<priority>0.60</priority>
+<lastmod>2019-03-02</lastmod>
+<changefreq>Always</changefreq>
+</url>
+<url>
+<mobile:mobile type="pc,mobile"/>
+<loc>https://pratnket.github.io/comic/005-009.html</loc>
+<priority>0.60</priority>
+<lastmod>2019-03-02</lastmod>
+<changefreq>Always</changefreq>
+</url>
+<url>
+<mobile:mobile type="pc,mobile"/>
+<loc>https://pratnket.github.io/comic/005-010.html</loc>
+<priority>0.60</priority>
+<lastmod>2019-03-02</lastmod>
+<changefreq>Always</changefreq>
+</url>
+<url>
+<mobile:mobile type="pc,mobile"/>
+<loc>https://pratnket.github.io/comic/005-011.html</loc>
+<priority>0.60</priority>
+<lastmod>2019-03-02</lastmod>
+<changefreq>Always</changefreq>
+</url>
+<url>
+<mobile:mobile type="pc,mobile"/>
+<loc>https://pratnket.github.io/comic/005-012.html</loc>
+<priority>0.60</priority>
+<lastmod>2019-03-02</lastmod>
+<changefreq>Always</changefreq>
+</url>
+<url>
+<mobile:mobile type="pc,mobile"/>
+<loc>https://pratnket.github.io/comic/005-013.html</loc>
+<priority>0.60</priority>
+<lastmod>2019-03-02</lastmod>
+<changefreq>Always</changefreq>
+</url>
+<url>
+<mobile:mobile type="pc,mobile"/>
+<loc>https://pratnket.github.io/comic/005-014.html</loc>
+<priority>0.60</priority>
+<lastmod>2019-03-02</lastmod>
+<changefreq>Always</changefreq>
+</url>
+<url>
+<mobile:mobile type="pc,mobile"/>
+<loc>https://pratnket.github.io/comic/005-015.html</loc>
+<priority>0.60</priority>
+<lastmod>2019-03-02</lastmod>
+<changefreq>Always</changefreq>
+</url>
+<url>
+<mobile:mobile type="pc,mobile"/>
+<loc>https://pratnket.github.io/comic/005-016.html</loc>
+<priority>0.60</priority>
+<lastmod>2019-03-02</lastmod>
+<changefreq>Always</changefreq>
+</url>
+<url>
+<mobile:mobile type="pc,mobile"/>
+<loc>https://pratnket.github.io/comic/005-017.html</loc>
+<priority>0.60</priority>
+<lastmod>2019-03-02</lastmod>
+<changefreq>Always</changefreq>
+</url>
+<url>
+<mobile:mobile type="pc,mobile"/>
+<loc>https://pratnket.github.io/comic/005-018.html</loc>
+<priority>0.60</priority>
+<lastmod>2019-03-02</lastmod>
+<changefreq>Always</changefreq>
+</url>
+<url>
+<mobile:mobile type="pc,mobile"/>
+<loc>https://pratnket.github.io/comic/005.html</loc>
+<priority>0.60</priority>
+<lastmod>2019-03-02</lastmod>
+<changefreq>Always</changefreq>
+</url>
+<url>
+<mobile:mobile type="pc,mobile"/>
+<loc>https://pratnket.github.io/comic/006-001.html</loc>
+<priority>0.60</priority>
+<lastmod>2019-03-02</lastmod>
+<changefreq>Always</changefreq>
+</url>
+<url>
+<mobile:mobile type="pc,mobile"/>
+<loc>https://pratnket.github.io/comic/006-002.html</loc>
+<priority>0.60</priority>
+<lastmod>2019-03-02</lastmod>
+<changefreq>Always</changefreq>
+</url>
+<url>
+<mobile:mobile type="pc,mobile"/>
+<loc>https://pratnket.github.io/comic/006-003.html</loc>
+<priority>0.60</priority>
+<lastmod>2019-03-02</lastmod>
+<changefreq>Always</changefreq>
+</url>
+<url>
+<mobile:mobile type="pc,mobile"/>
+<loc>https://pratnket.github.io/comic/006-004.html</loc>
+<priority>0.60</priority>
+<lastmod>2019-03-02</lastmod>
+<changefreq>Always</changefreq>
+</url>
+<url>
+<mobile:mobile type="pc,mobile"/>
+<loc>https://pratnket.github.io/comic/006-005.html</loc>
+<priority>0.60</priority>
+<lastmod>2019-03-02</lastmod>
+<changefreq>Always</changefreq>
+</url>
+<url>
+<mobile:mobile type="pc,mobile"/>
+<loc>https://pratnket.github.io/comic/006-006.html</loc>
+<priority>0.60</priority>
+<lastmod>2019-03-02</lastmod>
+<changefreq>Always</changefreq>
+</url>
+<url>
+<mobile:mobile type="pc,mobile"/>
+<loc>https://pratnket.github.io/comic/006-007.html</loc>
+<priority>0.60</priority>
+<lastmod>2019-03-02</lastmod>
+<changefreq>Always</changefreq>
+</url>
+<url>
+<mobile:mobile type="pc,mobile"/>
+<loc>https://pratnket.github.io/comic/006-008.html</loc>
+<priority>0.60</priority>
+<lastmod>2019-03-02</lastmod>
+<changefreq>Always</changefreq>
+</url>
+<url>
+<mobile:mobile type="pc,mobile"/>
+<loc>https://pratnket.github.io/comic/006-009.html</loc>
+<priority>0.60</priority>
+<lastmod>2019-03-02</lastmod>
+<changefreq>Always</changefreq>
+</url>
+<url>
+<mobile:mobile type="pc,mobile"/>
+<loc>https://pratnket.github.io/comic/006-010.html</loc>
+<priority>0.60</priority>
+<lastmod>2019-03-02</lastmod>
+<changefreq>Always</changefreq>
+</url>
+<url>
+<mobile:mobile type="pc,mobile"/>
+<loc>https://pratnket.github.io/comic/006-011.html</loc>
+<priority>0.60</priority>
+<lastmod>2019-03-02</lastmod>
+<changefreq>Always</changefreq>
+</url>
+<url>
+<mobile:mobile type="pc,mobile"/>
+<loc>https://pratnket.github.io/comic/006-012.html</loc>
+<priority>0.60</priority>
+<lastmod>2019-03-02</lastmod>
+<changefreq>Always</changefreq>
+</url>
+<url>
+<mobile:mobile type="pc,mobile"/>
+<loc>https://pratnket.github.io/comic/006-013.html</loc>
+<priority>0.60</priority>
+<lastmod>2019-03-02</lastmod>
+<changefreq>Always</changefreq>
+</url>
+<url>
+<mobile:mobile type="pc,mobile"/>
+<loc>https://pratnket.github.io/comic/006-014.html</loc>
+<priority>0.60</priority>
+<lastmod>2019-03-02</lastmod>
+<changefreq>Always</changefreq>
+</url>
+<url>
+<mobile:mobile type="pc,mobile"/>
+<loc>https://pratnket.github.io/comic/006.html</loc>
+<priority>0.60</priority>
+<lastmod>2019-03-02</lastmod>
+<changefreq>Always</changefreq>
+</url>
+<url>
+<mobile:mobile type="pc,mobile"/>
+<loc>https://pratnket.github.io/message/</loc>
+<priority>0.60</priority>
+<lastmod>2019-03-02</lastmod>
 <changefreq>Always</changefreq>
 </url>
 <url>
 <mobile:mobile type="pc,mobile"/>
 <loc>https://pratnket.github.io/tags</loc>
 <priority>0.80</priority>
-<lastmod>2019-03-01</lastmod>
+<lastmod>2019-03-02</lastmod>
+<changefreq>Always</changefreq>
+</url>
+<url>
+<mobile:mobile type="pc,mobile"/>
+<loc>https://pratnket.github.io/tags/</loc>
+<priority>0.60</priority>
+<lastmod>2019-03-02</lastmod>
 <changefreq>Always</changefreq>
 </url>
 <url>
 <mobile:mobile type="pc,mobile"/>
 <loc>https://pratnket.github.io/tags/Apache/</loc>
 <priority>0.40</priority>
-<lastmod>2019-03-01</lastmod>
+<lastmod>2019-03-02</lastmod>
 <changefreq>Always</changefreq>
 </url>
 <url>
 <mobile:mobile type="pc,mobile"/>
 <loc>https://pratnket.github.io/tags/Hexo-教學/</loc>
 <priority>0.40</priority>
-<lastmod>2019-03-01</lastmod>
+<lastmod>2019-03-02</lastmod>
 <changefreq>Always</changefreq>
 </url>
 </urlset>
