@@ -1,3 +1,4 @@
 [submodule "wireframe"]
 	path = wireframe
 	url = https://github.com/ogiwolf/pet-hotel-management-system-wireframe.git
+	branch = main
